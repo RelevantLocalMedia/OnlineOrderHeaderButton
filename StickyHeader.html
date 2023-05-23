@@ -1,0 +1,75 @@
+<!-- Place in Header section code snippet -->
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+<style>
+
+
+  .header {
+    padding: 0.6rem 1.3rem;
+    background: #222;
+    color: #fff;
+	  font-family:inherit;
+    box-shadow: black 1px 5px 12px;
+	  z-index: 10;
+  }
+	
+	.btn {
+		font-family: inherit;
+	}
+
+  .content {
+    padding: 5rem;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+</style>
+<div class="header">
+	<div class="row">
+		<h2 class="col-xs-5 col-xs-offset-1">Order Online!</h2>
+		<a
+          type="button"
+          class="btn btn-primary btn-lg col-xs-2 navbar-btn"
+          href="/menu"
+        >
+			View Menu
+		</a>
+	<a
+          type="button"
+          class="btn btn-primary btn-lg col-xs-2 col-xs-offset-1 navbar-btn"
+          href="/menu"
+        >
+		Order Now
+		</a>
+		</div>
+</div>
+<div class="header sticky" id="myHeader">
+	<div class="row">
+		<h2 class="col-xs-5 col-xs-offset-1">Order Online!</h2>
+		<a
+          type="button"
+          class="btn btn-primary btn-lg col-xs-2 navbar-btn"
+          href="/menu"
+        >
+			View Menu
+		</a>
+	<a
+          type="button"
+          class="btn btn-primary btn-lg col-xs-2 col-xs-offset-1 navbar-btn"
+          href="/menu"
+        >
+		Order Now
+		</a>
+		</div>
+</div>
